@@ -49,7 +49,7 @@ library(graphics)
 # Number of measurements per sample for second dataset
 n <- 4
 
-# Load data from a text file into a data frame
+# Load data from a text file into a data frame(for loading file.txt , downlaod file.text uploaded here and save it in your working directory or else give the path of directory where it is saved)
 discs <- read.table("file.txt", header = FALSE); discs
 
 # Calculate sample means for each row
