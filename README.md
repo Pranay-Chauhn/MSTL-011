@@ -30,8 +30,11 @@ Setting a working directory ensures R knows where to save and read files.
    setwd("C:/Path_to_Your_Folder")
    ```
    Replace `C:/Path_to_Your_Folder` with the actual path to your folder.
+                  or 
+   Navigate to Session → Set Working Directory → Choose Directory....
+   Browse and select your desired folder.
 
-3. **Check the Directory**  
+4. **Check the Directory**  
    Confirm it’s set correctly:
    ```R
    getwd()
