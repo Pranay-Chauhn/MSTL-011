@@ -17,28 +17,27 @@ Welcome to the **R Language Tutorial Repository**! This repository is designed t
 
 ---
 
-## **2. Setting Up Your Working Directory**
+### **2. Setting Up Your Working Directory**
 
 Setting a working directory ensures R knows where to save and read files.
 
 1. **Create a Folder**  
    Create a dedicated folder for your R projects (e.g., `R_Projects`).
 
-2. **Set the Directory**  
-   Open RStudio or the R console and type:
-   ```R
-   setwd("C:/Path_to_Your_Folder")
-   ```
-   Replace `C:/Path_to_Your_Folder` with the actual path to your folder.
-                  or 
-   Navigate to Session → Set Working Directory → Choose Directory....
-   Browse and select your desired folder.
+2. **Setting Up Your Working Directory**
 
-4. **Check the Directory**  
-   Confirm it’s set correctly:
-   ```R
-   getwd()
-   ```
+Your working directory is the folder where R will read and save files. There are two ways to set it:
+
+**Option 1**: Use the menu in RStudio:  
+1. Go to `Session` > `Set Working Directory` > `Choose Directory...`.  
+2. Select the folder and confirm.
+
+**Option 2**: Use the `setwd()` function in R:  
+```R
+setwd("C:/path/to/your/folder")
+```
+
+**Tip**: Check your current working directory using `getwd()`.
 
 ### **Tips for Directories**
 - Always use forward slashes `/` in the path for compatibility.
